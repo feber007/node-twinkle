@@ -1,0 +1,19 @@
+{
+  "name": "twinkle",
+  "version": "0.0.1",
+  "description": "fast and scalable flash message middleware",
+  "main": "./lib",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "developer@louding.com:/home/developer/repo/nodejs/twinkle.git"
+  },
+  "keywords": [ "flash", "messages"],
+  "author": "Vincent Zhang",
+  "license": "BSD-2-Clause"
+}

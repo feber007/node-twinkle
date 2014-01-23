@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example for twinkle (Express 3.x)</title>
+  </head>
+
+  <body>
+    <h3>There should be some flashed messages below:</h3>
+    <hr>
+    <% if (has_flashed_messages()) { %>
+      <% get_flashed_messages().forEach(function(message) { %>
+      <p><%= message %></p>
+      <% }) %>
+    <% } %>
+  </body>
+</html>
