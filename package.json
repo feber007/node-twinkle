@@ -1,17 +1,23 @@
 {
-  "name": "twinkle",
+  "name": "node-twinkle",
   "version": "0.0.1",
-  "description": "fast and scalable flash message middleware",
+  "description": "fast and scalable message flashing middleware for express",
   "main": "./lib",
   "directories": {
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "developer@louding.com:/home/developer/repo/nodejs/twinkle.git"
+    "url": "git@github.com:feber007/node-twinkle.git"
+  },
+  "devDependencies": {
+    "express": "3.4.8",
+    "ejs": "0.8.5",
+    "mocha": "1.17.1",
+    "should": "3.1.0"
   },
   "keywords": [ "flash", "messages"],
   "author": "Vincent Zhang",
