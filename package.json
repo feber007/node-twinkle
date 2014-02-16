@@ -1,7 +1,7 @@
 {
   "name": "node-twinkle",
   "version": "0.0.1",
-  "description": "fast and scalable message flashing middleware for express",
+  "description": "Fast and scalable message flashing middleware for express",
   "main": "./lib",
   "directories": {
     "example": "examples"

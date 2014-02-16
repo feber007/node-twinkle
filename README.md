@@ -2,13 +2,11 @@
 
 A message flashing module. Inspired by [Flask](http://flask.pocoo.org/docs/patterns/flashing/).
 
-## Quick Start
+### Install:
 
-#### Install:
+    $ npm install node-twinkle
 
-  $ npm install node-twinkle
-
-#### Init the app:
+### Initialize your application:
 
 ```javascript
 var express = require('express'),
@@ -24,7 +22,7 @@ app.configure(function(function() {
 });
 ```
 
-#### Usage
+### Usage
 
 ```javascript
 // in your view functions:
@@ -44,4 +42,10 @@ app.post('/signin', function(req, res) {
 </body>
 ```
 
-See? it's simple, and easy to use.
+### Examples and tests
+
+Examples are under the 'example' directory.
+
+To test node-twinkle, make sure you have [mocha](http://visionmedia.github.io/mocha/) installed, then run the following command:
+
+    $ mocha test/flash.test.js
