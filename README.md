@@ -35,7 +35,7 @@ app.post('/signin', function(req, res) {
 // in your templates: (we use ejs as an example, however you can use any template as you like)
 <body>
   <% if (has_flashed_messages()) { %>
-    <% get_flashed_messages().forEach(function(message) { %>
+    <% get_flashed_messages().forEach(function(message)) { %>
     <p><%= message %></p>
     <% }) %>
   <% } %>
