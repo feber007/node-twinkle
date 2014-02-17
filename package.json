@@ -1,6 +1,6 @@
 {
   "name": "node-twinkle",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Fast and scalable message flashing middleware for express",
   "main": "./lib",
   "directories": {
@@ -13,13 +13,13 @@
     "type": "git",
     "url": "git@github.com:feber007/node-twinkle.git"
   },
-  "devDependencies": {
-    "express": "3.4.8",
-    "ejs": "0.8.5",
-    "mocha": "1.17.1",
-    "should": "3.1.0"
+  "dependencies": {
+    "express": ">=3.4.8",
+    "ejs": ">=0.8.5",
+    "mocha": ">=1.17.1",
+    "should": ">=3.1.0"
   },
   "keywords": [ "flash", "messages"],
   "author": "Vincent Zhang",
-  "license": "BSD-2-Clause"
+  "license": "MIT"
 }
