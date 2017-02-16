@@ -46,6 +46,6 @@ app.post('/signin', function(req, res) {
 
 Examples are under the 'example' directory.
 
-To test node-twinkle, make sure you have [mocha](http://visionmedia.github.io/mocha/) installed, then run the following command:
+To test node-twinkle, make sure you have [mocha](http://mochajs.org/) installed, then run the following command:
 
     $ mocha test/flash.test.js
